@@ -1,5 +1,7 @@
 import axios from "axios";
 
+//axios.create()方法是可以执行多次的，每次执行就会生成一个新的实例
+//如果需要的接口基地址不同，就可以执行多次方法
 const httpInstance = axios.create({
     //根域名
     baseURL: "http://pcapi-xiaotuxian-front-devtest.itheima.net",
