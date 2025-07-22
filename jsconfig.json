@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
+      //路径联想统一路径访问
       "@/*": ["./src/*"]
     }
   },
