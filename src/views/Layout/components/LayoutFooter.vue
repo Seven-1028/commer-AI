@@ -7,13 +7,13 @@
         <div class="container">
             <dl>
                 <dt>客户服务</dt>
-                <dd>在线客服</dd>
-                <dd>问题反馈</dd>
+                <dd><i class="iconfont icon-kefu"></i>在线客服</dd>
+                <dd><i class="iconfont icon-fankuixinxi"></i>问题反馈</dd>
             </dl>
             <dl>
                 <dt>关注我们</dt>
-                <dd>公众号</dd>
-                <dd>微博</dd>
+                <dd><i class="iconfont icon-WeChat"></i>公众号</dd>
+                <dd><i class="iconfont icon-weibo"></i>微博</dd>
             </dl>
             <dl>
                 <dt>下载APP</dt>
@@ -102,6 +102,12 @@
                     height: 92px;
                     padding-top: 10px;
                     border: 1px solid #ededed;
+
+                    i{
+                        display: block;
+                        font-size: 40px;
+                        color: #2C2C2C;
+                    }
 
                     span{
                         display: block;

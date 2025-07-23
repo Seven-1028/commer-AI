@@ -10,7 +10,7 @@ const confirmEvent = () => {
             <ul>
                 <template v-if="true">
                     <li>
-                        <a href="javascript:"><i class=" iconfont icon-user"></i>滑滑梯</a>
+                        <a href="javascript:"><i class=" iconfont icon-yonghu"></i>滑滑梯</a>
                     </li>
                     <li>
                         <el-popconfirm 
